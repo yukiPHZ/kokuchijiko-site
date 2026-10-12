@@ -1,3 +1,5 @@
+2026-10-13 Observer候補: 中央peakheadz_kokuchijiko / source d5b738dから専用パッケージと固定adapterを生成。現在enabled=false、本番送信・deployなし。Consent・既存ゲーム操作の固定event配線を実装し、公開buildと10テスト成功。公開原画/人物正本は維持。Production通信検証前にactive扱いにしない。
+
 # 告知事項 Official
 
 公式サイト: https://kokuchijiko.peakheadz.com/

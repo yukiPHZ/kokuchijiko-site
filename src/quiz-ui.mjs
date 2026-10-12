@@ -1,8 +1,9 @@
+import { gameObservation } from './observer-events.mjs';
 import { createQuiz, validateCharacters } from './quiz-engine.mjs';
 import { escape, displayName, portrait } from './templates.mjs';
 const root = document.querySelector('#quiz-root');
 let characters, byId, manifest, quiz;
-let lastOptions;
+let lastOptions, currentMode;
 const focusHeading = () => root.querySelector('[data-focus]')?.focus({ preventScroll: true });
 function menu() {
   quiz = null;
@@ -11,9 +12,10 @@ function menu() {
   root.querySelectorAll('[data-mode]').forEach(button => button.addEventListener('click', () => start({ count: button.dataset.mode === 'all' ? 'all' : 10, ids: manifest.availableQuestionIds })));
   focusHeading();
 }
-function start(options) {
-  lastOptions = options;
+function start(options, mode = options.count === 10 ? 'ten' : 'all') {
+  lastOptions = options; currentMode = mode;
   quiz = createQuiz(characters, options);
+  gameObservation.start(mode);
   render();
 }
 function render() {
@@ -35,12 +37,13 @@ function render() {
   if (!answered) { root.scrollIntoView({ block: 'start' }); focusHeading(); }
 }
 function result(score) {
+  gameObservation.complete();
   root.innerHTML = `<div class="result"><p class="eyebrow">YOUR RECORD</p><h2 data-focus tabindex="-1">${score.correctAnswers === score.total ? '全員の名前に、たどり着きました。' : 'また会えば、きっと思い出せる。'}</h2><p class="result-score">${score.correctAnswers}<span> / ${score.total} 問正解</span></p><p class="result-rate">正答率 ${score.percentage}%</p><div class="mode-buttons">${score.missedIds.length ? `<button class="button" id="review">迷った${score.missedIds.length}人をもう一度 →</button>` : ''}<button class="button secondary" id="retry">同じモードで再挑戦 →</button><button class="quiet-button" id="menu">モード選択へ</button></div><h3>今回出会った人々</h3><ol class="answer-list">${score.answers.map(a => {
     const c = byId.get(a.correctId);
     return `<li><span class="answer-mark">${a.correct ? '正解' : '未正解'}</span><a href="/characters/#${c.id}">${displayName(c)}</a>${!a.correct ? `<span class="your-answer">選んだ名前：${escape(byId.get(a.selectedId).name_ja)}</span>` : ''}</li>`;
   }).join('')}</ol><a class="text-link" href="/characters/">人物帳を開く ↗</a></div>`;
-  root.querySelector('#review')?.addEventListener('click', () => start({ count: 'all', ids: score.missedIds }));
-  root.querySelector('#retry').addEventListener('click', () => start(lastOptions));
+  root.querySelector('#review')?.addEventListener('click', () => { gameObservation.replay('review'); start({ count: 'all', ids: score.missedIds }, 'review'); });
+  root.querySelector('#retry').addEventListener('click', () => { gameObservation.replay(currentMode); start(lastOptions, currentMode); });
   root.querySelector('#menu').addEventListener('click', menu);
   root.scrollIntoView({ block: 'start' });
   focusHeading();

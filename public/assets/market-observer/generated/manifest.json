@@ -1,0 +1,23 @@
+{
+  "_notice": "Generated from 00_core canonical YAML. Do not edit by hand.",
+  "artifacts": {
+    "peakheadz_kokuchijiko_profile": {
+      "path": "generated/peakheadz_kokuchijiko.profile.json",
+      "sha256": "e6712c9cddfbb76ac063e59e4394a133ce3791f1f6994dfd9cda1662a782cdf7"
+    },
+    "runtime_schema": {
+      "path": "generated/runtime_schema.json",
+      "sha256": "c3277541f69f49c1a88b62741931dc7426e7129ad9179c93c3d46e67ffbf542f"
+    }
+  },
+  "schema_version": "1.0.0-phase1a-revision",
+  "source_files": [
+    "00_core/project_registry.yaml",
+    "00_core/client_event_dictionary.yaml",
+    "00_core/parameter_dictionary.yaml",
+    "00_core/surface_dictionary.yaml",
+    "00_core/utm_taxonomy.yaml",
+    "00_core/ga4_custom_definitions.yaml",
+    "00_core/data_state_dictionary.yaml"
+  ]
+}

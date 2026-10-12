@@ -1,0 +1,47 @@
+{
+  "generated_at_utc": "2026-10-12T20:53:58Z",
+  "managed_file_checksums": {
+    "README.md": "af93c9e03bb5a890c284d282204c86d56282292cb83776935e6e429e5ff974c1",
+    "consent-banner.js": "6c7739455934cd810fa9eaf51260b4f1c746e2c0ec767ee9cb0320f862592b55",
+    "generated/manifest.json": "dcf4c8ae026978a136cdd347b96ae40209d6da4a512a864f45cd062a0b518f34",
+    "generated/peakheadz_kokuchijiko.profile.json": "e6712c9cddfbb76ac063e59e4394a133ce3791f1f6994dfd9cda1662a782cdf7",
+    "generated/runtime-package.js": "9248ff4d2ba093510eec318cadf9aa1882336a172dc74dac99154fe521d121a3",
+    "generated/runtime_schema.json": "c3277541f69f49c1a88b62741931dc7426e7129ad9179c93c3d46e67ffbf542f",
+    "market-observer.js": "22979de8c78c924adb019b893c7533bd8db0261864079e32b89804d25e917c8d"
+  },
+  "manifest_checksum": "dcf4c8ae026978a136cdd347b96ae40209d6da4a512a864f45cd062a0b518f34",
+  "market_observer_commit": "d5b738da77210e1d95feea78d78f6ca991ec21c2",
+  "profile_checksums": {
+    "peakheadz_kokuchijiko": "e6712c9cddfbb76ac063e59e4394a133ce3791f1f6994dfd9cda1662a782cdf7"
+  },
+  "project_ids": [
+    "peakheadz_kokuchijiko"
+  ],
+  "repository": "yukiPHZ/kokuchijiko-site",
+  "runtime_checksum": "22979de8c78c924adb019b893c7533bd8db0261864079e32b89804d25e917c8d",
+  "runtime_version": "1.0.0",
+  "schema_version": "1.0.0-lite",
+  "site_file_checksums": {
+    "public/404.html": "7a30f408e81816744e7084b812463adf0b1694ade30811a9789863c4d1c5c852",
+    "public/_headers": "dfec5316074f20609c03c5c3edbf863d6fd6caa2bb70273c6a0a6aac60baa9af",
+    "public/about/index.html": "dd2d4b34e11a610bbb15776ec9312b6fddddd6c238c1a09dac8db803f7c2e3f9",
+    "public/assets/observer-bootstrap.js": "09854431993738e513ff3eef7f51e8789e1c884816f26668d02395055df9136a",
+    "public/assets/observer-contract.js": "91832976a43615e698b45fbfd1a85e4c01b03d7bd5d75379b7d50f0697968cb9",
+    "public/assets/observer-events.mjs": "60443cb1313a394cac7f0cd94d57481bb2e379c1578aa6f1502dcab84f31aa4f",
+    "public/assets/quiz-ui.mjs": "93f8afaa0035ad4e584b8fb28843ced37b134a20e5b71de031e8bad78b4470c3",
+    "public/assets/site.css": "6b8fe1419d2cf8b3696384b5da0ef3562567704c24d293377c1a961ff3d40ef8",
+    "public/assets/templates.mjs": "7207027b4cfbc3e7256a77b7045aa036ac43bbc27203721a525fbbd0317c11cb",
+    "public/characters/index.html": "20504ef969bc994a8cb74c5f11f7e1beb9965a282b226815d8a3ceaeda6b9bea",
+    "public/index.html": "f46a424ef9320400aef3729eaa4d2308ad8965db2ea7a73888451603380c601f",
+    "public/quiz/index.html": "fede07294300041b8d121fc46f42e2b7b18ad13cb906fc5c196a70e350241392",
+    "src/observer-bootstrap.js": "09854431993738e513ff3eef7f51e8789e1c884816f26668d02395055df9136a",
+    "src/observer-contract.js": "91832976a43615e698b45fbfd1a85e4c01b03d7bd5d75379b7d50f0697968cb9",
+    "src/observer-events.mjs": "60443cb1313a394cac7f0cd94d57481bb2e379c1578aa6f1502dcab84f31aa4f",
+    "src/quiz-ui.mjs": "93f8afaa0035ad4e584b8fb28843ced37b134a20e5b71de031e8bad78b4470c3",
+    "src/site.css": "6b8fe1419d2cf8b3696384b5da0ef3562567704c24d293377c1a961ff3d40ef8",
+    "src/templates.mjs": "7207027b4cfbc3e7256a77b7045aa036ac43bbc27203721a525fbbd0317c11cb",
+    "tools/build.mjs": "b2d40c9ca3673d7019529e5938deafd113b8adb47a3b65ffa1d2ff779eaddd26"
+  },
+  "site_local_overrides": [],
+  "target_id": "peakheadz_kokuchijiko_site"
+}
