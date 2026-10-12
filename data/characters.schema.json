@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Kokuchijiko canonical character registry",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "characters"],
+  "properties": {
+    "version": {"const": 1},
+    "characters": {
+      "type": "array", "minItems": 124, "maxItems": 124,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["id", "name_ja", "reading_ja", "name_romaji", "portrait", "status", "impression", "question_kind"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^[a-z][a-z0-9-]+$"},
+          "name_ja": {"type": "string", "minLength": 2},
+          "reading_ja": {"type": "string", "pattern": "^[ぁ-ゖー]+ [ぁ-ゖー]+$"},
+          "name_romaji": {"type": "string", "pattern": "^[A-Z][a-z]+ [A-Z][a-z]+$"},
+          "portrait": {"type": ["object", "null"], "additionalProperties": false, "required": ["src", "position", "scale"], "properties": {
+            "src": {"type": "string", "pattern": "^/assets/portraits/[a-z0-9-]+\\.(png|webp)$"},
+            "position": {"type": "string"}, "scale": {"type": "number", "minimum": 1, "maximum": 5}
+          }},
+          "status": {"enum": ["core", "reserve", "background"]},
+          "impression": {"type": "string", "maxLength": 50},
+          "question_kind": {"enum": ["portrait", "record"]}
+        },
+        "allOf": [{"if": {"properties": {"question_kind": {"const": "record"}}}, "then": {"properties": {"id": {"const": "haitani"}, "portrait": {"type": "null"}}}, "else": {"properties": {"portrait": {"type": "object"}}}}]
+      }
+    }
+  }
+}

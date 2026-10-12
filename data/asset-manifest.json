@@ -1,0 +1,500 @@
+{
+  "assets": [
+    {
+      "file": "assets/portraits/shiraishi.png",
+      "sha256": "ec766b6cb4d7032e070087b35a46b3e2966c4cebe7e458f3c2d2a3c835cd9d0c"
+    },
+    {
+      "file": "assets/portraits/hatori.png",
+      "sha256": "6871ba076697502f4749e9440e85cd3c4cef0bd644a2518565c631283c02472a"
+    },
+    {
+      "file": "assets/portraits/mishima.png",
+      "sha256": "7f194530cdbbbbaf640f57aa3298bfd9f0dce3e4cd9f46ecb74666caf5269b0b"
+    },
+    {
+      "file": "assets/portraits/komori.png",
+      "sha256": "5a59f8a66891b08a2d4c186fcf5a2faa127827b389623f22c5bb92a1c8e944b6"
+    },
+    {
+      "file": "assets/portraits/tokura.png",
+      "sha256": "435284c825d5f6ce5b37619111b6168a7423ca1b90ff649db28bf6cefb48a71c"
+    },
+    {
+      "file": "assets/portraits/sakakibara.png",
+      "sha256": "0d31046a0aa68ce3e7b543cf7ad40a64749994dcc58a92b8455b6384b103c4bf"
+    },
+    {
+      "file": "assets/portraits/office-staff.png",
+      "sha256": "2191a664d0ee2300dd73b137ae5e1847bf81664f8b2224124b07499aade51a7b"
+    },
+    {
+      "file": "assets/portraits/mamiya.png",
+      "sha256": "4486ba7c07bddbbbc3458f9354895028074a5b98a489d12e2899954d5daf4681"
+    },
+    {
+      "file": "assets/portraits/r001.png",
+      "sha256": "417b2a065c5fb6e935ce8456be73c3b2fae2de8d12557105e934cc2b106046a9"
+    },
+    {
+      "file": "assets/portraits/r002.png",
+      "sha256": "df6c52332c2e2606a4d289215429c91e4847611b70bfad5ff1576c304936ae7a"
+    },
+    {
+      "file": "assets/portraits/r003.png",
+      "sha256": "2f483867ca644737b7d0cdc5c365524a41f17a179a9a511aac4b936df80111a5"
+    },
+    {
+      "file": "assets/portraits/r004.png",
+      "sha256": "a9b2077888439fe6168696c8fac10c77ca0f4b2f4ec4f0ecdd170746978cea2e"
+    },
+    {
+      "file": "assets/portraits/r005.png",
+      "sha256": "0acb74a7cbe4bbc0968d1898f772884a500d05511ee13504be5e720fdbcdf174"
+    },
+    {
+      "file": "assets/portraits/r006.png",
+      "sha256": "9c2c91d14affdb40da00d50bc3a4d2f4d86a0d7781c81704d6c56a90472bc8d1"
+    },
+    {
+      "file": "assets/portraits/r007.png",
+      "sha256": "0dab463b5c9c045bb863cedd964ee3ab65e10b6032b3d4179d8fe2427bdf5dd5"
+    },
+    {
+      "file": "assets/portraits/r008.png",
+      "sha256": "6a214c8834cc1e53d1b92244093030cabba9f1aeb45a4b57dc8b2e76e41eb28e"
+    },
+    {
+      "file": "assets/portraits/r009.png",
+      "sha256": "c34924525b90d1149ee4762aeee746809fdcec3ea57df48d23706414fbf5e685"
+    },
+    {
+      "file": "assets/portraits/r010.png",
+      "sha256": "1d23fb858781c2498daf81fd7526aa6e472cbea4aedd2abb877adabd292a265a"
+    },
+    {
+      "file": "assets/portraits/r011.png",
+      "sha256": "c89376d206f2a87cc8cf58b84c4454dfbc1bdb0dceffbc6512cd0536553330f5"
+    },
+    {
+      "file": "assets/portraits/r012.png",
+      "sha256": "a14c3d7a292fd87f2b8965b2add987da598ee08a1560367e49a5d81b8f0a697f"
+    },
+    {
+      "file": "assets/portraits/r013.png",
+      "sha256": "4260986e034f0ffa15f3db6a80cc63ec06b6d34ec4372e10ee165360e978da73"
+    },
+    {
+      "file": "assets/portraits/r014.png",
+      "sha256": "4d5bf53e3951d62b2385f5cd613fe0baa1b1fbecbf1c4ecfbd099a0001ed09c9"
+    },
+    {
+      "file": "assets/portraits/r015.png",
+      "sha256": "70cb0dc7c6dcfa0bc65dfe4498d4de956a82e786e73d0ad6f493d69e6bef6670"
+    },
+    {
+      "file": "assets/portraits/r016.png",
+      "sha256": "7ad901237337b68ccacaa8157cc1068ce7c5f8c71ce7fff098240608b9bf8932"
+    },
+    {
+      "file": "assets/portraits/r017.png",
+      "sha256": "f4d67afef83b1cd27f62545d97183b8931455f182ee706362fcfe3e3a16bad2e"
+    },
+    {
+      "file": "assets/portraits/r018.png",
+      "sha256": "e6508b01a96912a72c3e9e25c59b614c01ec811e2d577f2a14f628f6869066d5"
+    },
+    {
+      "file": "assets/portraits/r019.png",
+      "sha256": "b9f23ed64cb5015c377df3b9884e90f4f3e9f610755a2db2934d3026b19c9ba6"
+    },
+    {
+      "file": "assets/portraits/r020.png",
+      "sha256": "685413fc787e7352d184491c33e9c2b757fc6eedd91966ada8ae9aa04b3725c4"
+    },
+    {
+      "file": "assets/portraits/r021.png",
+      "sha256": "bfa39b930513cfb44df1529d3b539801d0f6390ba938213f2e5db1e90324a9c7"
+    },
+    {
+      "file": "assets/portraits/r022.png",
+      "sha256": "5a82e4140739c2a3636c0ed02ee47eea6f426e3d2e11ea75c8ae0689a5356e0d"
+    },
+    {
+      "file": "assets/portraits/r023.png",
+      "sha256": "371c61d45669edb44e70f318697395df18a6057e2c447b6a225e53888c51a3e0"
+    },
+    {
+      "file": "assets/portraits/r024.png",
+      "sha256": "10be9a2685548c8c1a2f0b13a3315c703d24886449d6e6c8fb70b6aedbb43e0b"
+    },
+    {
+      "file": "assets/portraits/r025.png",
+      "sha256": "f825445717e5606c2f15b55ff938e8940d5f4cfeadcef4332394460988d68e46"
+    },
+    {
+      "file": "assets/portraits/r026.png",
+      "sha256": "49e1b85df22ac05b5b80d0dc1a157e505d183822d4ba29e34036f96d5a8bc7b8"
+    },
+    {
+      "file": "assets/portraits/r027.png",
+      "sha256": "34815c7e8f5b2ef4fb00438261b9846c94aa8b14126268d1e20d4d7c6f0a85fc"
+    },
+    {
+      "file": "assets/portraits/r028.png",
+      "sha256": "cc7eb3e99393dacd08672aedaec438329c4b575ea44a989d3c1af50135239a93"
+    },
+    {
+      "file": "assets/portraits/r029.png",
+      "sha256": "655dcbe44f125c582cc6c75474b44b94568f7e12c8cedfa193b5be55ff23fb24"
+    },
+    {
+      "file": "assets/portraits/r030.png",
+      "sha256": "874930f1fb07c13b8f88db47bd83847de030b655563626aae6a936ba8d8822ea"
+    },
+    {
+      "file": "assets/portraits/r031.png",
+      "sha256": "fc1729aadc7e68f26b216ea7b0346b9b52ae8988bbc8c3a232eec9d4bb3e3bb7"
+    },
+    {
+      "file": "assets/portraits/r032.png",
+      "sha256": "33670d26dc222ac3ec0c09299b99f1ce0cbccc4f4d796ca5240af914fcd4d04e"
+    },
+    {
+      "file": "assets/portraits/r033.png",
+      "sha256": "161c57c94eb27fa751809ab2d74622ae268fc8ed10a156d5e25be60a69ee9160"
+    },
+    {
+      "file": "assets/portraits/r034.png",
+      "sha256": "3aa32d099177c824ed00cbe8aeb7ec1c83b0daaeb544746383296339f6aa5a91"
+    },
+    {
+      "file": "assets/portraits/r035.png",
+      "sha256": "4ba15aa14208ebe9cc0792d793d690e23e37d4be127ea7574ee95509aa94ee49"
+    },
+    {
+      "file": "assets/portraits/r036.png",
+      "sha256": "90de45e5887ec2954191433f7cd5af16960dc850d37f7659e36ba5aa8bf26147"
+    },
+    {
+      "file": "assets/portraits/r037.png",
+      "sha256": "ba9aed79012ed3ad63ac95fa611e0820c97246bd2934df0434adbfb62b748b10"
+    },
+    {
+      "file": "assets/portraits/r038.png",
+      "sha256": "d0e9c81cc1976c2c268728b07473f5f59cb0192f64ab00595be8265f8878121b"
+    },
+    {
+      "file": "assets/portraits/r039.png",
+      "sha256": "5fe99c55f8faef2a0edf2393aab113b9051a0444f4e274a169b37b343704e0c5"
+    },
+    {
+      "file": "assets/portraits/r040.png",
+      "sha256": "0265f07e497ecc8a307ee7813cd6141cf1e842d542bb932f5417061123be7e8e"
+    },
+    {
+      "file": "assets/portraits/r041.png",
+      "sha256": "591b66041bbbf49a6f443231e1fceea1e47ed4a66fcec99b126ec5c53c834bcc"
+    },
+    {
+      "file": "assets/portraits/r042.png",
+      "sha256": "474de62e5847232d93bb0a36470b46b5100fb3f05ee97b10478ba6bd100aa5eb"
+    },
+    {
+      "file": "assets/portraits/r043.png",
+      "sha256": "85ccfc813896d4e94b87080723b912021ecb7bdb5aca3a5eeb6fd4e80f75fb4f"
+    },
+    {
+      "file": "assets/portraits/r044.png",
+      "sha256": "a2966ba021965b1ceb48d23958fa9619d6fecf7d8faa574aa63de0b4c75d2cca"
+    },
+    {
+      "file": "assets/portraits/r045.png",
+      "sha256": "255a8d04279e8783e4f02699a402543b6ced4362e0d942a3f5ef34b1a00c5dc2"
+    },
+    {
+      "file": "assets/portraits/r046.png",
+      "sha256": "b4f5e54732cfe5a2220da620b157714c7d880c7ed6799fe24295d7ca49c7c7fd"
+    },
+    {
+      "file": "assets/portraits/r047.png",
+      "sha256": "733770b011d136b0c64693599890249a7bff2285a53bb9378d9da257e0170abc"
+    },
+    {
+      "file": "assets/portraits/r048.png",
+      "sha256": "70f7943f17db3f53edf1f8a1f3834d96d83386656fd72688980690f47a816160"
+    },
+    {
+      "file": "assets/portraits/r049.png",
+      "sha256": "fd815b66a713e460b19e136011c06d8fcc6fe9ba4e91347315de6bc73eec76fc"
+    },
+    {
+      "file": "assets/portraits/r050.png",
+      "sha256": "c5dc7ff3d6b22b581bf33ed53c6beacfc7b8ac60964d4878a1166ce8a3b0476f"
+    },
+    {
+      "file": "assets/portraits/r051.png",
+      "sha256": "079ad62e2dbb0c62e1ae0b6882673012e46bb29468f6dfd52e67e3be63e95ec0"
+    },
+    {
+      "file": "assets/portraits/r052.png",
+      "sha256": "d09c0fe708b69b7e1031b5ec4f80bf980dc6ebf046a1e4629da0016f77fd1c8d"
+    },
+    {
+      "file": "assets/portraits/r053.png",
+      "sha256": "2de48364764ca1d812689f83d5c171a8391481704befe909af75cd10c6f3306a"
+    },
+    {
+      "file": "assets/portraits/r054.png",
+      "sha256": "eb3334d7738180656a560db666abf8eb4466feed809a41eaf398eb8b5c6d10d0"
+    },
+    {
+      "file": "assets/portraits/r055.png",
+      "sha256": "a37419401cd3da38d04982963bdd81669558e617bc1e85c609bff90c1d6eb0ba"
+    },
+    {
+      "file": "assets/portraits/r056.png",
+      "sha256": "86e8057fab2b77c74e41a4dab01e5b4fe39c07f45644c4ec84814e86d930ff17"
+    },
+    {
+      "file": "assets/portraits/r057.png",
+      "sha256": "df565b347ff93486992645216e604a89e442ce1d8a31fdacae3ef738963d6d23"
+    },
+    {
+      "file": "assets/portraits/r058.png",
+      "sha256": "e84bb5fc4cd9d6f816d0da66a7ebb40de7825a09b489caadfc44e0db02477a97"
+    },
+    {
+      "file": "assets/portraits/r059.png",
+      "sha256": "50cda09f8b65d960f52e848f3c18aca385737dec835745aa1173ada7f16aa04e"
+    },
+    {
+      "file": "assets/portraits/r060.png",
+      "sha256": "e8fc4cd479a4df6dd06ee79d18fd3e47490986df795cf11b8ca7d00130da63dd"
+    },
+    {
+      "file": "assets/portraits/r061.png",
+      "sha256": "3f1b44287ff7847d9bc9889d4210fb7745dd6e8cf9d7519719cfee56b65b59ef"
+    },
+    {
+      "file": "assets/portraits/r062.png",
+      "sha256": "21a3bf655209dadaa917c4fddbfab8645ff1f089bfe9e66b7bbe15c701a08d20"
+    },
+    {
+      "file": "assets/portraits/r063.png",
+      "sha256": "49ac641d82f5f3b6f4b9d2bfd8e266d6ce294e6a279688a66dd03232fce87f0a"
+    },
+    {
+      "file": "assets/portraits/r064.png",
+      "sha256": "f3e04f0d42ab9304af5faae7d38f0aef7abe06d5860c17521fcfe194404309d5"
+    },
+    {
+      "file": "assets/portraits/r065.png",
+      "sha256": "78e454488d5bbae43561cb2670e237a2dd17b5533197209ce65806d7e03a9390"
+    },
+    {
+      "file": "assets/portraits/r066.png",
+      "sha256": "0fa181d048a4e4d3d696528600e8a32d59dcef05c1eb5fd9126ecd9b3bbecd39"
+    },
+    {
+      "file": "assets/portraits/r067.png",
+      "sha256": "0f09cbce9c2779a9f091c8cde07178278d38d5baef2dccfbeef1ed77baa2bcd1"
+    },
+    {
+      "file": "assets/portraits/r068.png",
+      "sha256": "41652fdaf878502b7c30e804980e38dd06a6eb0ae4818ffc6e3c75cf15965e94"
+    },
+    {
+      "file": "assets/portraits/r069.png",
+      "sha256": "62a1d0ad4a1a5b5b4439290f78a6faf4c28175b733815da7a4b0c2ce5f18ec59"
+    },
+    {
+      "file": "assets/portraits/r070.png",
+      "sha256": "d1b0cdf4b6d2e6bd7e1bfd788da066bec11fff96f86141933c9795e1bdafc1a0"
+    },
+    {
+      "file": "assets/portraits/r071.png",
+      "sha256": "87a6de43bf1aec458731b3143df5acf31a42b1bc534297769918ddc44150e6c3"
+    },
+    {
+      "file": "assets/portraits/r072.png",
+      "sha256": "9c55af5a3b3b000f1a59062a2c1b2dbf928cb555e712bce8dc990b0be475ebe6"
+    },
+    {
+      "file": "assets/portraits/r073.png",
+      "sha256": "0c73842ccba48e3360bd6a9bb1943d86a52d964309f0c956c9d31eb9869a47a0"
+    },
+    {
+      "file": "assets/portraits/r074.png",
+      "sha256": "057b9d44982926cb7f09b71f9e0ac7962774f1c57ba7d771584c454202f35cc6"
+    },
+    {
+      "file": "assets/portraits/r075.png",
+      "sha256": "ee47207c5ff977624a97f08dd31545a5e4fdae6cdd1c5256e0b30ace1d5cb8c6"
+    },
+    {
+      "file": "assets/portraits/r076.png",
+      "sha256": "80a141108e0b13dd8c3709914d512fb005816f469c775d22e5bf267e09982a01"
+    },
+    {
+      "file": "assets/portraits/r077.png",
+      "sha256": "c3f7e3adf6387bb11ac3851aca7bd838659e24956ca6850d3982aadb0873ae7c"
+    },
+    {
+      "file": "assets/portraits/r078.png",
+      "sha256": "7f14c9c9af0af13a20858d1ced85223032592467f0189ab6b2061a727818a212"
+    },
+    {
+      "file": "assets/portraits/r079.png",
+      "sha256": "7ba96aedaa7cbd12375fde47493edd794e05bd9ff3585dde23078642a13721ad"
+    },
+    {
+      "file": "assets/portraits/r080.png",
+      "sha256": "e0c2b4a335c128ba22e9595ca3622eba0ff562ce3ae75ae917633cdc062a35f4"
+    },
+    {
+      "file": "assets/portraits/r081.png",
+      "sha256": "0a7b3dac80819fe75cecd947e06f165163ec5234198aa03503b9c3bd7ca54481"
+    },
+    {
+      "file": "assets/portraits/r082.png",
+      "sha256": "f32121938d56dbf10132a916a34ad2a1f494bae79461c42c29966ed920e57437"
+    },
+    {
+      "file": "assets/portraits/r083.png",
+      "sha256": "5c3a7a6d5b476b060c94657d76e7b39c5f54f1c6bc5b4c2e365de31788335f28"
+    },
+    {
+      "file": "assets/portraits/r084.png",
+      "sha256": "209c3ec1fada186aade3f78053ac3517d153f6cb399200d9d36388527da3d297"
+    },
+    {
+      "file": "assets/portraits/r085.png",
+      "sha256": "59666f161c927af1f1f99e74f3405b624fe581cc57cd30f43f2da8b60e0c6dd7"
+    },
+    {
+      "file": "assets/portraits/r086.png",
+      "sha256": "9a1da593ecfe7664d2ee07a437f539ac729c136fe6ec29f47de2ff4f600f765f"
+    },
+    {
+      "file": "assets/portraits/r087.png",
+      "sha256": "99455d471ef8c943a41ba883978f2a254251a476515f5d790b086d8e14c02d6b"
+    },
+    {
+      "file": "assets/portraits/r088.png",
+      "sha256": "6db47b11122628b8697073d29f10f3a0aab97f63bd12a7510bacaa37bb5d62c6"
+    },
+    {
+      "file": "assets/portraits/r089.png",
+      "sha256": "c1710cfafcf67c7709cceebacfe914f5715b643e0f6b801722bb5e2e86d699e4"
+    },
+    {
+      "file": "assets/portraits/r090.png",
+      "sha256": "09757cd4383acfa65f8fd070a4b5d96ce05931caa0be3a5ab094e92d5a90840f"
+    },
+    {
+      "file": "assets/portraits/r091.png",
+      "sha256": "a27a91ec5f2768d71d9545f9625fbe0208a4e1c4c827475f0c9cc5d1ca5b3295"
+    },
+    {
+      "file": "assets/portraits/r092.png",
+      "sha256": "4628ec0c28f7defab66fa6768b465fd9f7c941794ea7db26d46bb517f8038095"
+    },
+    {
+      "file": "assets/portraits/r093.png",
+      "sha256": "b99af0baadce6d9366a6613266583691c12930fe1c0dee965a6f9ac58b265998"
+    },
+    {
+      "file": "assets/portraits/r094.png",
+      "sha256": "14f4e5cc1592efa1cb1a085856218ba2eb5d35b361922f7c9c079fbe5ce3a6a2"
+    },
+    {
+      "file": "assets/portraits/r095.png",
+      "sha256": "0fcf1112824ebe9b34a8e06c2a2b7cfb33c83da017fa35925a4e5db2b753b691"
+    },
+    {
+      "file": "assets/portraits/r096.png",
+      "sha256": "5fe89349ab39c02b2d30ce51afa0513f5de663a607539cfd0e8e6ee7189d40ba"
+    },
+    {
+      "file": "assets/portraits/r097.png",
+      "sha256": "23861d3ed24e4b67e28dfc7c52627818021c1dfa32711f00c2df24bb9a517807"
+    },
+    {
+      "file": "assets/portraits/r098.png",
+      "sha256": "090e36d4848ec695099b2563a321c7bfeb53f3a97d85e914bc16145be0a4b27f"
+    },
+    {
+      "file": "assets/portraits/r099.png",
+      "sha256": "f55e86d86485e284165c3add7ed47b3f67856d45389dc83f3d1e3010fa8e507f"
+    },
+    {
+      "file": "assets/portraits/r100.png",
+      "sha256": "07f95d0311209ea9acccfeb02ec24bdf6284bc3ca42b988869fb5e959c66e910"
+    },
+    {
+      "file": "assets/portraits/r101.png",
+      "sha256": "e56105e172c7220f78d385a64c53a8929319a242c9ed3562941177f24cfd5724"
+    },
+    {
+      "file": "assets/portraits/r102.png",
+      "sha256": "f4f4f791d2fc5f30e6d9052d59fb5996d3d5e5043d982e6467f6491c262f2565"
+    },
+    {
+      "file": "assets/portraits/r103.png",
+      "sha256": "88953401ed4ee02af8af51ab44feeefabd0b6fc1491f2739b98a7d01ce190850"
+    },
+    {
+      "file": "assets/portraits/r104.png",
+      "sha256": "6cf9abdc04bae8e660d1bd23e6378b39e5bb46da76f3f3d50a39c4a974605c31"
+    },
+    {
+      "file": "assets/portraits/r105.png",
+      "sha256": "d3ae7c7305c524ec56c7e44f57b672a830aec95c97703650988c5e4963ed0cf1"
+    },
+    {
+      "file": "assets/portraits/r106.png",
+      "sha256": "1780301a1ed7bd180f93be5e6725c1b4d96160d4d7c5d5f6b154ce08c662178b"
+    },
+    {
+      "file": "assets/portraits/r107.png",
+      "sha256": "eeae8e90075b28fdece5abfefb0ef00252efd8e5830b5f8066a8ca0e327f1bf0"
+    },
+    {
+      "file": "assets/portraits/r108.png",
+      "sha256": "c584252208fb1fb74ed84e2aacfed901ca27f3747696bd22029daf19a1a4ea1c"
+    },
+    {
+      "file": "assets/portraits/r109.png",
+      "sha256": "ad0b202aca5d5c1bdafe54bb7203c93e8811db93d2e17be559de9c72d27396fd"
+    },
+    {
+      "file": "assets/portraits/r110.png",
+      "sha256": "7807ebcad0625248871c354d7e26216824e9814ef969db82d235701f4b3acf39"
+    },
+    {
+      "file": "assets/portraits/r111.png",
+      "sha256": "a6038557a1087900826f9d322d67cbdd8799c860cb6141e807d76cb0625abf6f"
+    },
+    {
+      "file": "assets/portraits/r112.png",
+      "sha256": "506c73083320bb9c086cb0c15710f9fd356d9e2fdeb8cf67aee90b687e45aea5"
+    },
+    {
+      "file": "assets/portraits/r113.png",
+      "sha256": "e519f14e77943819cd4ec1235d05718e3f8e8a57a49de33287038625c1686ba0"
+    },
+    {
+      "file": "assets/station.png",
+      "sha256": "22cf3eb3082bea38da5d382b3a89bd09eb0c9ba624a60410cad39762d7b430d4"
+    },
+    {
+      "file": "assets/apple-touch-icon.png",
+      "sha256": "9cda315a692f06e23e0b0e7f164992794ddfdc5b63185bd03b99a19e7c98ac43"
+    },
+    {
+      "file": "assets/ogp/ogp.jpg",
+      "sha256": "b957e6ccd525fff00f9b7e2114c84b6a41f590e425e4309666653f409c60c524"
+    }
+  ]
+}

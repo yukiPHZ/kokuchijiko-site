@@ -1,0 +1,1737 @@
+{
+  "version": 1,
+  "characters": [
+    {
+      "id": "shiraishi",
+      "name_ja": "白石 蓮介",
+      "reading_ja": "しらいし れんすけ",
+      "name_romaji": "Shiraishi Rensuke",
+      "portrait": {
+        "src": "/assets/portraits/shiraishi.png",
+        "position": "50% 0%",
+        "scale": 1.8
+      },
+      "status": "core",
+      "impression": "メッシュの短髪と、薄い色の眼鏡。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "hatori",
+      "name_ja": "羽鳥 灯",
+      "reading_ja": "はとり あかり",
+      "name_romaji": "Hatori Akari",
+      "portrait": {
+        "src": "/assets/portraits/hatori.png",
+        "position": "50% 0%",
+        "scale": 1.8
+      },
+      "status": "core",
+      "impression": "低くまとめた髪と、細い眼鏡。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "mishima",
+      "name_ja": "三島 澄夫",
+      "reading_ja": "みしま すみお",
+      "name_romaji": "Mishima Sumio",
+      "portrait": {
+        "src": "/assets/portraits/mishima.png",
+        "position": "44% 0%",
+        "scale": 2.9
+      },
+      "status": "core",
+      "impression": "短い髪と、穏やかな目元。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "komori",
+      "name_ja": "小森 静江",
+      "reading_ja": "こもり しずえ",
+      "name_romaji": "Komori Shizue",
+      "portrait": {
+        "src": "/assets/portraits/komori.png",
+        "position": "50% 0%",
+        "scale": 2.8
+      },
+      "status": "core",
+      "impression": "まとめた髪と、柔らかな輪郭。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "tokura",
+      "name_ja": "戸倉 省吾",
+      "reading_ja": "とくら しょうご",
+      "name_romaji": "Tokura Shougo",
+      "portrait": {
+        "src": "/assets/portraits/tokura.png",
+        "position": "50% 35%",
+        "scale": 1
+      },
+      "status": "core",
+      "impression": "横に流した髪と、長めの輪郭。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "sakakibara",
+      "name_ja": "榊原 浩二",
+      "reading_ja": "さかきばら こうじ",
+      "name_romaji": "Sakakibara Kouji",
+      "portrait": {
+        "src": "/assets/portraits/sakakibara.png",
+        "position": "50% 35%",
+        "scale": 1
+      },
+      "status": "core",
+      "impression": "短く整えた髪と、丸みのある頬。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "inui",
+      "name_ja": "乾 誠司",
+      "reading_ja": "いぬい せいじ",
+      "name_romaji": "Inui Seiji",
+      "portrait": {
+        "src": "/assets/portraits/office-staff.png",
+        "position": "52% 0%",
+        "scale": 2.6
+      },
+      "status": "core",
+      "impression": "灰色の混じる髪と、四角い眼鏡。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "seto",
+      "name_ja": "瀬戸 陽斗",
+      "reading_ja": "せと はると",
+      "name_romaji": "Seto Haruto",
+      "portrait": {
+        "src": "/assets/portraits/office-staff.png",
+        "position": "13% 22%",
+        "scale": 2.6
+      },
+      "status": "core",
+      "impression": "短い黒髪と、細い輪郭。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "mashiba",
+      "name_ja": "真柴 健吾",
+      "reading_ja": "ましば けんご",
+      "name_romaji": "Mashiba Kengo",
+      "portrait": {
+        "src": "/assets/portraits/office-staff.png",
+        "position": "82% 12%",
+        "scale": 2.6
+      },
+      "status": "core",
+      "impression": "がっしりした輪郭と、短い髪。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "mamiya",
+      "name_ja": "間宮 律",
+      "reading_ja": "まみや りつ",
+      "name_romaji": "Mamiya Ritsu",
+      "portrait": {
+        "src": "/assets/portraits/mamiya.png",
+        "position": "57% 35%",
+        "scale": 1.3
+      },
+      "status": "core",
+      "impression": "横に流した髪と、落ち着いた目元。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "haitani",
+      "name_ja": "灰谷 修一",
+      "reading_ja": "はいたに しゅういち",
+      "name_romaji": "Haitani Shuuichi",
+      "portrait": null,
+      "status": "core",
+      "impression": "図面に残る、設計者の名前。",
+      "question_kind": "record"
+    },
+    {
+      "id": "r001",
+      "name_ja": "朝霧 紬",
+      "reading_ja": "あさぎり つむぎ",
+      "name_romaji": "Asagiri Tsumugi",
+      "portrait": {
+        "src": "/assets/portraits/r001.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "やわらかな輪郭と、短い波打つ髪。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r002",
+      "name_ja": "雨宮 朔",
+      "reading_ja": "あまみや さく",
+      "name_romaji": "Amamiya Saku",
+      "portrait": {
+        "src": "/assets/portraits/r002.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "長めの輪郭に、まっすぐな眉。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r003",
+      "name_ja": "安西 葉月",
+      "reading_ja": "あんざい はづき",
+      "name_romaji": "Anzai Hazuki",
+      "portrait": {
+        "src": "/assets/portraits/r003.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "丸い眼鏡と、耳にかけた髪。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r004",
+      "name_ja": "飯島 岳",
+      "reading_ja": "いいじま がく",
+      "name_romaji": "Iijima Gaku",
+      "portrait": {
+        "src": "/assets/portraits/r004.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "刈り込んだ髪と、広い額。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r005",
+      "name_ja": "石渡 澪",
+      "reading_ja": "いしわた みお",
+      "name_romaji": "Ishiwata Mio",
+      "portrait": {
+        "src": "/assets/portraits/r005.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "切りそろえた前髪と、細い目元。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r006",
+      "name_ja": "一ノ瀬 遥",
+      "reading_ja": "いちのせ はるか",
+      "name_romaji": "Ichinose Haruka",
+      "portrait": {
+        "src": "/assets/portraits/r006.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "短い髪に、少し上がった口角。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r007",
+      "name_ja": "宇佐美 惇",
+      "reading_ja": "うさみ あつし",
+      "name_romaji": "Usami Atsushi",
+      "portrait": {
+        "src": "/assets/portraits/r007.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "丸みのある頬と、低い眉。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r008",
+      "name_ja": "江崎 千紘",
+      "reading_ja": "えざき ちひろ",
+      "name_romaji": "Ezaki Chihiro",
+      "portrait": {
+        "src": "/assets/portraits/r008.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "細いフレームと、ゆるく結んだ髪。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r009",
+      "name_ja": "榎本 央",
+      "reading_ja": "えのもと ひろ",
+      "name_romaji": "Enomoto Hiro",
+      "portrait": {
+        "src": "/assets/portraits/r009.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "くせのある短髪と、はっきりした鼻筋。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r010",
+      "name_ja": "大槻 奈央",
+      "reading_ja": "おおつき なお",
+      "name_romaji": "Ootsuki Nao",
+      "portrait": {
+        "src": "/assets/portraits/r010.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "額を見せたボブと、太めの眉。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r011",
+      "name_ja": "岡野 伊織",
+      "reading_ja": "おかの いおり",
+      "name_romaji": "Okano Iori",
+      "portrait": {
+        "src": "/assets/portraits/r011.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "細い顎と、横へ流した髪。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r012",
+      "name_ja": "奥村 芙美",
+      "reading_ja": "おくむら ふみ",
+      "name_romaji": "Okumura Fumi",
+      "portrait": {
+        "src": "/assets/portraits/r012.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "銀の混じる髪と、穏やかな目元。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r013",
+      "name_ja": "小田切 湊",
+      "reading_ja": "おだぎり みなと",
+      "name_romaji": "Odagiri Minato",
+      "portrait": {
+        "src": "/assets/portraits/r013.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "短い前髪と、角ばった輪郭。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r014",
+      "name_ja": "梶原 咲",
+      "reading_ja": "かじわら さき",
+      "name_romaji": "Kajiwara Saki",
+      "portrait": {
+        "src": "/assets/portraits/r014.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "肩に届く髪と、くっきりした眉。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r015",
+      "name_ja": "片瀬 直",
+      "reading_ja": "かたせ なお",
+      "name_romaji": "Katase Nao",
+      "portrait": {
+        "src": "/assets/portraits/r015.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "薄い眼鏡と、細長い目元。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r016",
+      "name_ja": "金森 穂香",
+      "reading_ja": "かなもり ほのか",
+      "name_romaji": "Kanamori Honoka",
+      "portrait": {
+        "src": "/assets/portraits/r016.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "丸い輪郭に、軽く揃えた前髪。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r017",
+      "name_ja": "神谷 陸",
+      "reading_ja": "かみや りく",
+      "name_romaji": "Kamiya Riku",
+      "portrait": {
+        "src": "/assets/portraits/r017.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "立ち上がる短髪と、厚めの唇。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r018",
+      "name_ja": "川瀬 依都",
+      "reading_ja": "かわせ いと",
+      "name_romaji": "Kawase Ito",
+      "portrait": {
+        "src": "/assets/portraits/r018.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "低く束ねた髪と、静かな目線。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r019",
+      "name_ja": "岸本 透",
+      "reading_ja": "きしもと とおる",
+      "name_romaji": "Kishimoto Tooru",
+      "portrait": {
+        "src": "/assets/portraits/r019.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "白髪の混じる前髪と、長い鼻筋。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r020",
+      "name_ja": "木崎 莉央",
+      "reading_ja": "きざき りお",
+      "name_romaji": "Kizaki Rio",
+      "portrait": {
+        "src": "/assets/portraits/r020.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "耳を出した短髪と、丸い目元。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r021",
+      "name_ja": "北沢 悠",
+      "reading_ja": "きたざわ ゆう",
+      "name_romaji": "Kitazawa Yuu",
+      "portrait": {
+        "src": "/assets/portraits/r021.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "長めの前髪と、少し細い肩。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r022",
+      "name_ja": "久我 茜",
+      "reading_ja": "くが あかね",
+      "name_romaji": "Kuga Akane",
+      "portrait": {
+        "src": "/assets/portraits/r022.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "厚めの眉と、緩やかな巻き髪。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r023",
+      "name_ja": "栗原 文人",
+      "reading_ja": "くりはら ふみと",
+      "name_romaji": "Kurihara Fumito",
+      "portrait": {
+        "src": "/assets/portraits/r023.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "丸い眼鏡と、やや下がった目尻。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r024",
+      "name_ja": "黒瀬 碧",
+      "reading_ja": "くろせ あお",
+      "name_romaji": "Kurose Ao",
+      "portrait": {
+        "src": "/assets/portraits/r024.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "真ん中で分けた髪と、小さな口元。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r025",
+      "name_ja": "桑原 志乃",
+      "reading_ja": "くわばら しの",
+      "name_romaji": "Kuwabara Shino",
+      "portrait": {
+        "src": "/assets/portraits/r025.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "短い銀髪と、すっと伸びる眉。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r026",
+      "name_ja": "小泉 晴",
+      "reading_ja": "こいずみ はる",
+      "name_romaji": "Koizumi Haru",
+      "portrait": {
+        "src": "/assets/portraits/r026.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "額の広い輪郭と、柔らかな短髪。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r027",
+      "name_ja": "河野 佳澄",
+      "reading_ja": "こうの かすみ",
+      "name_romaji": "Kouno Kasumi",
+      "portrait": {
+        "src": "/assets/portraits/r027.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "片側へ流した髪と、浅い笑み。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r028",
+      "name_ja": "小坂 玲",
+      "reading_ja": "こさか れい",
+      "name_romaji": "Kosaka Rei",
+      "portrait": {
+        "src": "/assets/portraits/r028.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "まっすぐな髪と、細いフレーム。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r029",
+      "name_ja": "後藤 航平",
+      "reading_ja": "ごとう こうへい",
+      "name_romaji": "Gotou Kouhei",
+      "portrait": {
+        "src": "/assets/portraits/r029.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "短いくせ毛と、張った頬骨。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r030",
+      "name_ja": "近藤 菜月",
+      "reading_ja": "こんどう なつき",
+      "name_romaji": "Kondou Natsuki",
+      "portrait": {
+        "src": "/assets/portraits/r030.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "明るい額と、後ろにまとめた髪。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r031",
+      "name_ja": "斎木 蓉子",
+      "reading_ja": "さいき ようこ",
+      "name_romaji": "Saiki Youko",
+      "portrait": {
+        "src": "/assets/portraits/r031.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "細かな皺と、丸く整えた髪。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r032",
+      "name_ja": "坂上 柊",
+      "reading_ja": "さかがみ しゅう",
+      "name_romaji": "Sakagami Shuu",
+      "portrait": {
+        "src": "/assets/portraits/r032.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "直線的な眉と、少し長い顎。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r033",
+      "name_ja": "佐久間 由衣",
+      "reading_ja": "さくま ゆい",
+      "name_romaji": "Sakuma Yui",
+      "portrait": {
+        "src": "/assets/portraits/r033.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "軽い前髪と、ふっくらした頬。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r034",
+      "name_ja": "桜庭 環",
+      "reading_ja": "さくらば たまき",
+      "name_romaji": "Sakuraba Tamaki",
+      "portrait": {
+        "src": "/assets/portraits/r034.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "耳元で跳ねる髪と、広い目元。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r035",
+      "name_ja": "笹原 智尋",
+      "reading_ja": "ささはら ちひろ",
+      "name_romaji": "Sasahara Chihiro",
+      "portrait": {
+        "src": "/assets/portraits/r035.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "低い眉に、波打つ短髪。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r036",
+      "name_ja": "沢渡 冬花",
+      "reading_ja": "さわたり ふゆか",
+      "name_romaji": "Sawatari Fuyuka",
+      "portrait": {
+        "src": "/assets/portraits/r036.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "長い髪と、細く整った眉。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r037",
+      "name_ja": "塩見 亮",
+      "reading_ja": "しおみ りょう",
+      "name_romaji": "Shiomi Ryou",
+      "portrait": {
+        "src": "/assets/portraits/r037.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "浅い額の皺と、短く分けた髪。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r038",
+      "name_ja": "篠崎 結",
+      "reading_ja": "しのざき ゆい",
+      "name_romaji": "Shinozaki Yui",
+      "portrait": {
+        "src": "/assets/portraits/r038.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "丸い顎と、自然に下ろした髪。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r039",
+      "name_ja": "柴崎 律子",
+      "reading_ja": "しばさき りつこ",
+      "name_romaji": "Shibasaki Ritsuko",
+      "portrait": {
+        "src": "/assets/portraits/r039.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "白髪の束と、細い眼鏡。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r040",
+      "name_ja": "島津 奏",
+      "reading_ja": "しまづ かなで",
+      "name_romaji": "Shimazu Kanade",
+      "portrait": {
+        "src": "/assets/portraits/r040.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "短い刈上げと、やわらかな目尻。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r041",
+      "name_ja": "清水 早苗",
+      "reading_ja": "しみず さなえ",
+      "name_romaji": "Shimizu Sanae",
+      "portrait": {
+        "src": "/assets/portraits/r041.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "顎までの髪と、まっすぐな視線。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r042",
+      "name_ja": "白川 理人",
+      "reading_ja": "しらかわ りひと",
+      "name_romaji": "Shirakawa Rihito",
+      "portrait": {
+        "src": "/assets/portraits/r042.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "少し長い髪と、面長の輪郭。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r043",
+      "name_ja": "菅沼 朱音",
+      "reading_ja": "すがぬま あかね",
+      "name_romaji": "Suganuma Akane",
+      "portrait": {
+        "src": "/assets/portraits/r043.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "短く揃えた髪と、小さな鼻先。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r044",
+      "name_ja": "杉浦 誠",
+      "reading_ja": "すぎうら まこと",
+      "name_romaji": "Sugiura Makoto",
+      "portrait": {
+        "src": "/assets/portraits/r044.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "深い目元と、四角い眼鏡。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r045",
+      "name_ja": "鈴村 楓",
+      "reading_ja": "すずむら かえで",
+      "name_romaji": "Suzumura Kaede",
+      "portrait": {
+        "src": "/assets/portraits/r045.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "ゆるい前髪と、細い顎先。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r046",
+      "name_ja": "須田 慶",
+      "reading_ja": "すだ けい",
+      "name_romaji": "Suda Kei",
+      "portrait": {
+        "src": "/assets/portraits/r046.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "やや丸い眉と、短い黒髪。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r047",
+      "name_ja": "高岡 乃々",
+      "reading_ja": "たかおか のの",
+      "name_romaji": "Takaoka Nono",
+      "portrait": {
+        "src": "/assets/portraits/r047.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "波打つ長い髪と、柔らかな口元。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r048",
+      "name_ja": "高梨 蒼",
+      "reading_ja": "たかなし あおい",
+      "name_romaji": "Takanashi Aoi",
+      "portrait": {
+        "src": "/assets/portraits/r048.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "額を出した髪と、薄い唇。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r049",
+      "name_ja": "滝沢 千景",
+      "reading_ja": "たきざわ ちかげ",
+      "name_romaji": "Takizawa Chikage",
+      "portrait": {
+        "src": "/assets/portraits/r049.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "銀色の短髪と、はっきりした頬骨。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r050",
+      "name_ja": "竹内 真央",
+      "reading_ja": "たけうち まお",
+      "name_romaji": "Takeuchi Mao",
+      "portrait": {
+        "src": "/assets/portraits/r050.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "中央で分けた髪と、丸い鼻先。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r051",
+      "name_ja": "田代 詩織",
+      "reading_ja": "たしろ しおり",
+      "name_romaji": "Tashiro Shiori",
+      "portrait": {
+        "src": "/assets/portraits/r051.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "細い目元に、長めの前髪。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r052",
+      "name_ja": "立花 圭吾",
+      "reading_ja": "たちばな けいご",
+      "name_romaji": "Tachibana Keigo",
+      "portrait": {
+        "src": "/assets/portraits/r052.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "太い眉と、くせのある髪。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r053",
+      "name_ja": "田村 志帆",
+      "reading_ja": "たむら しほ",
+      "name_romaji": "Tamura Shiho",
+      "portrait": {
+        "src": "/assets/portraits/r053.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "肩へ落ちる髪と、広い額。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r054",
+      "name_ja": "千葉 綾",
+      "reading_ja": "ちば あや",
+      "name_romaji": "Chiba Aya",
+      "portrait": {
+        "src": "/assets/portraits/r054.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "薄いフレームと、短い前髪。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r055",
+      "name_ja": "津田 修平",
+      "reading_ja": "つだ しゅうへい",
+      "name_romaji": "Tsuda Shuuhei",
+      "portrait": {
+        "src": "/assets/portraits/r055.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "短い白髪と、くっきりした口元。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r056",
+      "name_ja": "辻村 梢",
+      "reading_ja": "つじむら こずえ",
+      "name_romaji": "Tsujimura Kozue",
+      "portrait": {
+        "src": "/assets/portraits/r056.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "束ねたくせ毛と、丸い頬。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r057",
+      "name_ja": "土屋 遼",
+      "reading_ja": "つちや りょう",
+      "name_romaji": "Tsuchiya Ryou",
+      "portrait": {
+        "src": "/assets/portraits/r057.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "横へ流れる髪と、細い目。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r058",
+      "name_ja": "寺島 翠",
+      "reading_ja": "てらしま みどり",
+      "name_romaji": "Terashima Midori",
+      "portrait": {
+        "src": "/assets/portraits/r058.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "短い髪と、低く落ち着いた眉。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r059",
+      "name_ja": "遠山 満",
+      "reading_ja": "とおやま みつる",
+      "name_romaji": "Tooyama Mitsuru",
+      "portrait": {
+        "src": "/assets/portraits/r059.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "後退した髪際と、丸い眼鏡。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r060",
+      "name_ja": "戸塚 美晴",
+      "reading_ja": "とつか みはる",
+      "name_romaji": "Totsuka Miharu",
+      "portrait": {
+        "src": "/assets/portraits/r060.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "耳にかけたボブと、長い目尻。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r061",
+      "name_ja": "富永 倫",
+      "reading_ja": "とみなが りん",
+      "name_romaji": "Tominaga Rin",
+      "portrait": {
+        "src": "/assets/portraits/r061.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "短い前髪と、浅いえくぼ。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r062",
+      "name_ja": "中井 景",
+      "reading_ja": "なかい けい",
+      "name_romaji": "Nakai Kei",
+      "portrait": {
+        "src": "/assets/portraits/r062.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "黒い丸眼鏡と、細長い輪郭。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r063",
+      "name_ja": "長岡 初音",
+      "reading_ja": "ながおか はつね",
+      "name_romaji": "Nagaoka Hatsune",
+      "portrait": {
+        "src": "/assets/portraits/r063.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "明るい銀髪と、穏やかな頬。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r064",
+      "name_ja": "中里 奈津",
+      "reading_ja": "なかざと なつ",
+      "name_romaji": "Nakazato Natsu",
+      "portrait": {
+        "src": "/assets/portraits/r064.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "丸い眉に、顎で揃えた髪。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r065",
+      "name_ja": "永瀬 颯太",
+      "reading_ja": "ながせ そうた",
+      "name_romaji": "Nagase Souta",
+      "portrait": {
+        "src": "/assets/portraits/r065.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "上向きの短髪と、長い耳。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r066",
+      "name_ja": "長田 佳乃",
+      "reading_ja": "ながた よしの",
+      "name_romaji": "Nagata Yoshino",
+      "portrait": {
+        "src": "/assets/portraits/r066.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "深めの目元と、後ろへ結んだ髪。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r067",
+      "name_ja": "成瀬 渉",
+      "reading_ja": "なるせ わたる",
+      "name_romaji": "Naruse Wataru",
+      "portrait": {
+        "src": "/assets/portraits/r067.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "柔らかいくせ毛と、低い鼻筋。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r068",
+      "name_ja": "西尾 紗良",
+      "reading_ja": "にしお さら",
+      "name_romaji": "Nishio Sara",
+      "portrait": {
+        "src": "/assets/portraits/r068.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "薄い前髪と、すっきりした顎。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r069",
+      "name_ja": "西崎 晃",
+      "reading_ja": "にしざき あきら",
+      "name_romaji": "Nishizaki Akira",
+      "portrait": {
+        "src": "/assets/portraits/r069.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "細い口元と、灰色の短髪。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r070",
+      "name_ja": "二宮 泉",
+      "reading_ja": "にのみや いずみ",
+      "name_romaji": "Ninomiya Izumi",
+      "portrait": {
+        "src": "/assets/portraits/r070.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "ゆるい巻き髪と、広い目元。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r071",
+      "name_ja": "沼田 想",
+      "reading_ja": "ぬまた そう",
+      "name_romaji": "Numata Sou",
+      "portrait": {
+        "src": "/assets/portraits/r071.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "長めの前髪と、角のある顎。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r072",
+      "name_ja": "根岸 真帆",
+      "reading_ja": "ねぎし まほ",
+      "name_romaji": "Negishi Maho",
+      "portrait": {
+        "src": "/assets/portraits/r072.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "短い髪と、少し厚い唇。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r073",
+      "name_ja": "野上 隼",
+      "reading_ja": "のがみ しゅん",
+      "name_romaji": "Nogami Shun",
+      "portrait": {
+        "src": "/assets/portraits/r073.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "広い肩と、静かな目線。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r074",
+      "name_ja": "野口 沙月",
+      "reading_ja": "のぐち さつき",
+      "name_romaji": "Noguchi Satsuki",
+      "portrait": {
+        "src": "/assets/portraits/r074.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "黒いボブと、はっきりした眉。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r075",
+      "name_ja": "橋口 慧",
+      "reading_ja": "はしぐち けい",
+      "name_romaji": "Hashiguchi Kei",
+      "portrait": {
+        "src": "/assets/portraits/r075.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "丸い鼻先と、額へ落ちる髪。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r076",
+      "name_ja": "長谷 朱里",
+      "reading_ja": "はせ あかり",
+      "name_romaji": "Hase Akari",
+      "portrait": {
+        "src": "/assets/portraits/r076.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "長い黒髪と、柔らかな目尻。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r077",
+      "name_ja": "服部 遼子",
+      "reading_ja": "はっとり りょうこ",
+      "name_romaji": "Hattori Ryouko",
+      "portrait": {
+        "src": "/assets/portraits/r077.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "銀髪のボブと、細い口元。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r078",
+      "name_ja": "花村 智",
+      "reading_ja": "はなむら さとし",
+      "name_romaji": "Hanamura Satoshi",
+      "portrait": {
+        "src": "/assets/portraits/r078.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "少し乱れた短髪と、丸い顎。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r079",
+      "name_ja": "浜野 由乃",
+      "reading_ja": "はまの よしの",
+      "name_romaji": "Hamano Yoshino",
+      "portrait": {
+        "src": "/assets/portraits/r079.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "額を出した髪と、浅い笑み。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r080",
+      "name_ja": "早川 仁",
+      "reading_ja": "はやかわ じん",
+      "name_romaji": "Hayakawa Jin",
+      "portrait": {
+        "src": "/assets/portraits/r080.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "太めのフレームと、短い髪。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r081",
+      "name_ja": "原田 凪",
+      "reading_ja": "はらだ なぎ",
+      "name_romaji": "Harada Nagi",
+      "portrait": {
+        "src": "/assets/portraits/r081.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "細い眉と、耳を出した髪。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r082",
+      "name_ja": "平井 美冬",
+      "reading_ja": "ひらい みふゆ",
+      "name_romaji": "Hirai Mifuyu",
+      "portrait": {
+        "src": "/assets/portraits/r082.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "丸い眼鏡と、ゆるい前髪。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r083",
+      "name_ja": "広瀬 匠",
+      "reading_ja": "ひろせ たくみ",
+      "name_romaji": "Hirose Takumi",
+      "portrait": {
+        "src": "/assets/portraits/r083.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "深い額の皺と、短い銀髪。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r084",
+      "name_ja": "福沢 杏",
+      "reading_ja": "ふくざわ あん",
+      "name_romaji": "Fukuzawa An",
+      "portrait": {
+        "src": "/assets/portraits/r084.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "厚めの前髪と、丸い瞳。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r085",
+      "name_ja": "藤岡 直哉",
+      "reading_ja": "ふじおか なおや",
+      "name_romaji": "Fujioka Naoya",
+      "portrait": {
+        "src": "/assets/portraits/r085.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "やや長い髪と、下がり気味の眉。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r086",
+      "name_ja": "藤崎 千尋",
+      "reading_ja": "ふじさき ちひろ",
+      "name_romaji": "Fujisaki Chihiro",
+      "portrait": {
+        "src": "/assets/portraits/r086.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "細い輪郭と、肩で跳ねる髪。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r087",
+      "name_ja": "船木 俊",
+      "reading_ja": "ふなき しゅん",
+      "name_romaji": "Funaki Shun",
+      "portrait": {
+        "src": "/assets/portraits/r087.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "丸い頬と、短く揃えた髪。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r088",
+      "name_ja": "古賀 佑花",
+      "reading_ja": "こが ゆうか",
+      "name_romaji": "Koga Yuuka",
+      "portrait": {
+        "src": "/assets/portraits/r088.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "低く束ねた髪と、太い眉。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r089",
+      "name_ja": "星野 怜",
+      "reading_ja": "ほしの れい",
+      "name_romaji": "Hoshino Rei",
+      "portrait": {
+        "src": "/assets/portraits/r089.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "明るい額と、細い金属フレーム。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r090",
+      "name_ja": "堀内 里緒",
+      "reading_ja": "ほりうち りお",
+      "name_romaji": "Horiuchi Rio",
+      "portrait": {
+        "src": "/assets/portraits/r090.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "波打つ短髪と、長めの目元。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r091",
+      "name_ja": "本多 紘",
+      "reading_ja": "ほんだ ひろ",
+      "name_romaji": "Honda Hiro",
+      "portrait": {
+        "src": "/assets/portraits/r091.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "四角い顎と、厚めの眉。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r092",
+      "name_ja": "前川 灯子",
+      "reading_ja": "まえかわ とうこ",
+      "name_romaji": "Maekawa Touko",
+      "portrait": {
+        "src": "/assets/portraits/r092.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "白髪の混じる髪と、丸い頬骨。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r093",
+      "name_ja": "増田 旭",
+      "reading_ja": "ますだ あさひ",
+      "name_romaji": "Masuda Asahi",
+      "portrait": {
+        "src": "/assets/portraits/r093.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "軽いくせ毛と、広い口元。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r094",
+      "name_ja": "町田 実央",
+      "reading_ja": "まちだ みお",
+      "name_romaji": "Machida Mio",
+      "portrait": {
+        "src": "/assets/portraits/r094.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "まっすぐなボブと、細い眉。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r095",
+      "name_ja": "松浦 怜央",
+      "reading_ja": "まつうら れお",
+      "name_romaji": "Matsuura Reo",
+      "portrait": {
+        "src": "/assets/portraits/r095.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "黒い短髪と、くっきりした鼻筋。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r096",
+      "name_ja": "丸山 詠",
+      "reading_ja": "まるやま えい",
+      "name_romaji": "Maruyama Ei",
+      "portrait": {
+        "src": "/assets/portraits/r096.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "ゆるく分けた髪と、浅い目の皺。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r097",
+      "name_ja": "三上 佳音",
+      "reading_ja": "みかみ かのん",
+      "name_romaji": "Mikami Kanon",
+      "portrait": {
+        "src": "/assets/portraits/r097.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "長い前髪と、薄い楕円の眼鏡。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r098",
+      "name_ja": "水野 肇",
+      "reading_ja": "みずの はじめ",
+      "name_romaji": "Mizuno Hajime",
+      "portrait": {
+        "src": "/assets/portraits/r098.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "薄い髪と、ふっくらした口元。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r099",
+      "name_ja": "宮坂 文乃",
+      "reading_ja": "みやさか ふみの",
+      "name_romaji": "Miyasaka Fumino",
+      "portrait": {
+        "src": "/assets/portraits/r099.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "短く切った髪と、広い額。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r100",
+      "name_ja": "向井 壮",
+      "reading_ja": "むかい そう",
+      "name_romaji": "Mukai Sou",
+      "portrait": {
+        "src": "/assets/portraits/r100.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "太い鼻筋と、揃えた短髪。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r101",
+      "name_ja": "村瀬 澄香",
+      "reading_ja": "むらせ すみか",
+      "name_romaji": "Murase Sumika",
+      "portrait": {
+        "src": "/assets/portraits/r101.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "丸い輪郭と、細かく波打つ髪。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r102",
+      "name_ja": "望月 伊吹",
+      "reading_ja": "もちづき いぶき",
+      "name_romaji": "Mochizuki Ibuki",
+      "portrait": {
+        "src": "/assets/portraits/r102.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "横に流した髪と、少し長い目。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r103",
+      "name_ja": "森下 晴臣",
+      "reading_ja": "もりした はるおみ",
+      "name_romaji": "Morishita Haruomi",
+      "portrait": {
+        "src": "/assets/portraits/r103.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "灰色の眉と、しっかりした顎。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r104",
+      "name_ja": "八木 志織",
+      "reading_ja": "やぎ しおり",
+      "name_romaji": "Yagi Shiori",
+      "portrait": {
+        "src": "/assets/portraits/r104.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "顎までのくせ毛と、細い目尻。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r105",
+      "name_ja": "矢島 奏太",
+      "reading_ja": "やじま そうた",
+      "name_romaji": "Yajima Souta",
+      "portrait": {
+        "src": "/assets/portraits/r105.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "上がった眉と、軽い短髪。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r106",
+      "name_ja": "柳沢 こよみ",
+      "reading_ja": "やなぎさわ こよみ",
+      "name_romaji": "Yanagisawa Koyomi",
+      "portrait": {
+        "src": "/assets/portraits/r106.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "丸い瞳と、肩に触れる髪。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r107",
+      "name_ja": "山根 周",
+      "reading_ja": "やまね しゅう",
+      "name_romaji": "Yamane Shuu",
+      "portrait": {
+        "src": "/assets/portraits/r107.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "短い前髪と、丸みのある鼻。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r108",
+      "name_ja": "結城 透子",
+      "reading_ja": "ゆうき とうこ",
+      "name_romaji": "Yuuki Touko",
+      "portrait": {
+        "src": "/assets/portraits/r108.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "銀の混じる髪と、長い眉。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r109",
+      "name_ja": "吉岡 和",
+      "reading_ja": "よしおか なごみ",
+      "name_romaji": "Yoshioka Nagomi",
+      "portrait": {
+        "src": "/assets/portraits/r109.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "短いボブと、浅いえくぼ。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r110",
+      "name_ja": "米田 碧人",
+      "reading_ja": "よねだ あおと",
+      "name_romaji": "Yoneda Aoto",
+      "portrait": {
+        "src": "/assets/portraits/r110.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "四角い眼鏡と、柔らかな髪。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r111",
+      "name_ja": "若林 歩",
+      "reading_ja": "わかばやし あゆみ",
+      "name_romaji": "Wakabayashi Ayumi",
+      "portrait": {
+        "src": "/assets/portraits/r111.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "長めの髪と、まっすぐな口元。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r112",
+      "name_ja": "脇坂 仁美",
+      "reading_ja": "わきさか ひとみ",
+      "name_romaji": "Wakisaka Hitomi",
+      "portrait": {
+        "src": "/assets/portraits/r112.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "短い銀髪と、深い目元。",
+      "question_kind": "portrait"
+    },
+    {
+      "id": "r113",
+      "name_ja": "渡瀬 侑",
+      "reading_ja": "わたせ ゆう",
+      "name_romaji": "Watase Yuu",
+      "portrait": {
+        "src": "/assets/portraits/r113.png",
+        "position": "50% 40%",
+        "scale": 1
+      },
+      "status": "reserve",
+      "impression": "ゆるいくせ毛と、低い眉。",
+      "question_kind": "portrait"
+    }
+  ]
+}
