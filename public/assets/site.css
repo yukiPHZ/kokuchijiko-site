@@ -13,3 +13,10 @@
 .question-art .portrait img{filter:grayscale(.5) contrast(.94) brightness(1.025)}
 .question-art .portrait:after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(#e8dfcd0a,#d9cfbd0f)}
 @media(max-width:580px){.question-art{width:min(100%,300px);padding:8px}}
+
+/* Consent decisions share the work's quiet paper surface; product remains usable. */
+.analytics-consent{max-width:760px;margin:0 auto;padding:0 20px}
+#market-observer-consent-banner{background:#ece7dc;color:#252923;border:1px solid #c9c2b4;box-shadow:none;font-family:inherit}
+#market-observer-consent-banner .market-observer-consent-button[data-action="allow"],#market-observer-consent-banner .market-observer-consent-button[data-action="deny"]{background:#ece7dc;color:#252923;border:1px solid #858979;min-height:44px;font-size:1rem;padding:12px 16px}
+#market-observer-consent-banner .market-observer-consent-button[data-action="details"]{color:#252923}
+.site-footer a{white-space:normal}

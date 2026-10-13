@@ -46,6 +46,8 @@ test('every rendered local link, image and script resolves; indexing follows bui
 
 test('public contains no source documents, prompts, original game scripts, or legacy vendor files', () => {
   const allowed = new Set(['index.html', 'characters/index.html', 'quiz/index.html', 'about/index.html', '404.html', '_headers', 'robots.txt', 'sitemap.xml', 'data/characters.json', 'data/build.json', 'assets/site.css', 'assets/atlas.mjs', 'assets/quiz-ui.mjs', 'assets/quiz-engine.mjs', 'assets/templates.mjs', 'assets/favicon.svg', 'assets/apple-touch-icon.png', 'assets/ogp/ogp.jpg', 'assets/station.png']);
+  for (const file of ['observer-bootstrap.js','observer-contract.js','observer-events.mjs']) allowed.add('assets/'+file);
+  for (const file of ['market-observer.js','consent-banner.js','README.md','market-observer-package.lock.json','generated/runtime_schema.json','generated/manifest.json','generated/runtime-package.js','generated/peakheadz_kokuchijiko.profile.json']) allowed.add('assets/market-observer/'+file);
   for (const c of registry.characters) if (c.portrait) allowed.add(c.portrait.src.slice(1));
   const walk = directory => fs.readdirSync(directory, { withFileTypes: true }).flatMap(e => e.isDirectory() ? walk(path.join(directory, e.name)) : [path.relative(publicRoot, path.join(directory, e.name)).replaceAll('\\', '/')]);
   for (const file of walk(publicRoot)) assert.ok(allowed.has(file), `Unapproved public file: ${file}`);
