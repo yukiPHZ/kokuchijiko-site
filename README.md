@@ -1,3 +1,5 @@
+2026-10-13: Canonical opt-in計測をProductionへ導入済み。main6e19f92 / Workere60424b6。独立4状態通信PASS、専用Streamの許可時HTTP204、未選択/拒否/GPC/RUM0、原典/肖像不変。GA4処理・mapping・Lite観測成立はpending、検証は需要に含めない。現在の正本はdocs/OBSERVATION_RELEASE.md。以下は候補/公開工程の履歴。
+
 2026-10-13 opt-in release candidate: 独立headless Consent/Preview/local-origin/pre-installation Production gateを通過。中央正本から生成、専用Stream G-VNMZR2Y954を再利用。START公開2記事への自然な導線を追加し、外部資料は既存画面を保つ新しいタブで表示。計測のProduction配信/read-backは次工程。active/reporting/Lite/baselineは処理確認までpending。
 
 2026-10-13 Observer候補: 中央peakheadz_kokuchijiko / source d5b738dから専用パッケージと固定adapterを生成。現在enabled=false、本番送信・deployなし。Consent・既存ゲーム操作の固定event配線を実装し、公開buildと10テスト成功。公開原画/人物正本は維持。Production通信検証前にactive扱いにしない。
