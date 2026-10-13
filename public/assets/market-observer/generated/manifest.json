@@ -3,11 +3,11 @@
   "artifacts": {
     "peakheadz_kokuchijiko_profile": {
       "path": "generated/peakheadz_kokuchijiko.profile.json",
-      "sha256": "e6712c9cddfbb76ac063e59e4394a133ce3791f1f6994dfd9cda1662a782cdf7"
+      "sha256": "2aebac4cb1ee821f08bea8b426ba659d1ea557a7606b903309087e40eb8e9e5f"
     },
     "runtime_schema": {
       "path": "generated/runtime_schema.json",
-      "sha256": "c3277541f69f49c1a88b62741931dc7426e7129ad9179c93c3d46e67ffbf542f"
+      "sha256": "4f9a473ef10b54f26eecf73e03207d300123087b406a1f57d2be87ade55dfe34"
     }
   },
   "schema_version": "1.0.0-phase1a-revision",

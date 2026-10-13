@@ -1,5 +1,4 @@
 /*
-  Cache-Control: no-transform
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
   Content-Security-Policy: default-src 'self'; script-src 'self' https://www.googletagmanager.com; style-src 'self' 'unsafe-inline'; img-src 'self' https://www.google-analytics.com; connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com; frame-ancestors 'none'; base-uri 'none'; form-action 'none'
@@ -11,3 +10,19 @@
   X-Robots-Tag: noindex, nofollow
 /404.html
   X-Robots-Tag: noindex, nofollow
+/
+  Cache-Control: no-transform
+/index.html
+  Cache-Control: no-transform
+/characters/
+  Cache-Control: no-transform
+/characters/index.html
+  Cache-Control: no-transform
+/quiz/
+  Cache-Control: no-transform
+/quiz/index.html
+  Cache-Control: no-transform
+/about/
+  Cache-Control: no-transform
+/about/index.html
+  Cache-Control: no-transform
